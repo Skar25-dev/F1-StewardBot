@@ -29,6 +29,18 @@ F1 StewardBot actúa como un comisario deportivo virtual. A partir de una imagen
 
 ---
 
+## 📸 Galería
+
+### 🏎️ Clasificación de Incidentes
+Interfaz de análisis: carga una imagen de un incidente de Fórmula 1 y el modelo predice si conlleva sanción o no.
+![Clasificación](docs/screenshots/stewardbot_gui.png)
+
+### 📊 Métricas del Modelo
+Curva de precisión y matriz de confusión obtenidas durante el entrenamiento.
+![Métricas](docs/screenshots/model_metrics.png)
+
+---
+
 ## 🏗️ Arquitectura del Pipeline de IA
 
 ```text
