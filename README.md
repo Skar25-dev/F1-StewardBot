@@ -72,8 +72,12 @@ Curva de precisión y matriz de confusión obtenidas durante el entrenamiento.
 │   ├── con_sancion/             # Imágenes de incidentes sancionables
 │   └── sin_sancion/             # Imágenes de lances normales de carrera
 ├── frames/                      # Fotogramas extraídos de vídeos de incidentes
-├── videos/                      # Vídeos fuente para extracción de frames
+├── videos/                      # Vídeos fuente para extracción de frames (no se versionan: añádelos en local)
 ├── pruebas/                     # Imágenes de prueba para validar el sistema
+├── experiments/yolo/            # 🧪 Experimento previo con YOLOv8 (detección de incidentes)
+│   ├── train.py                 # Entrenamiento (ajusta la ruta a data.yaml)
+│   ├── predict.py               # Inferencia sobre un vídeo (ajusta las rutas)
+│   └── labelstudio_export_*.zip # Dataset anotado exportado de Label Studio (formato YOLO)
 ├── app_StewardBot.py            # 🧠 Script de entrenamiento del modelo ResNet-152
 ├── app_modelo.py                # Motor de clasificación, análisis LLaVA y búsqueda de sanciones
 ├── app_gui.py                   # 🖥️ Interfaz gráfica de escritorio (Tkinter)
