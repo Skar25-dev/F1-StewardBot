@@ -1,1 +1,22 @@
+# Pesos del modelo entrenado (se regeneran con app_StewardBot.py)
 StewardBot.pth
+*.pt
+runs/
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Vídeos fuente (pesados y de terceros): colócalos en videos/ en local
+videos/*
+!videos/.gitkeep
+
+# Temporales
+temp_*.jpg
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
